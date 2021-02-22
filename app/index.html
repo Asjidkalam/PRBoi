@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self';script-src 'self' 'unsafe-inline';connect-src *">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>PRBoi automating lazy shit!</title>
+    <link rel="stylesheet" href="./styles.css" type="text/css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- URL -->
+        <label class="url">Github URL</label>
+        <input type="text" id="repoURL" placeholder="repo link">
+
+        <!-- Username -->
+        <label>Username</label>
+        <input type="text" id="username" placeholder="github username">
+
+        <!-- Bug Type -->
+        <label>Bug Type</label>
+        <select id="bugType">
+            <option value="xss">XSS</option>
+            <option value="yaml">YAML RCE</option>
+            <option value="protopoll">Prototype pollution</option>
+            <option value="cmdInj">Command Injection</option>
+        </select>
+
+        <!-- Language -->
+        <label>Language</label>
+        <select id="language">
+            <option value="Javascript">Javascript</option>
+            <option value="Javascript">Typescript</option>
+            <option value="Javascript">Java</option>
+            <option value="Python">Python</option>
+            <option value="Go">Go</option>
+            <option value="PHP">PHP</option>
+            <option value="Other">Other</option>
+        </select>
+
+        <textarea cols="87" rows="22" id="jsonHolder" placeholder="vulnerability.json"></textarea>
+        <button id="submitURL">Get em!</button>
+        <button id="copyClip">Copy to clipboard</button>
+    </div>
+    <script>
+        require('./renderer');
+    </script>
+</body>
+
+</html>

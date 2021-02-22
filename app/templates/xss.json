@@ -1,0 +1,56 @@
+{
+    "PackageVulnerabilityID": "1",
+    "DisclosureDate": "",
+    "AffectedVersionRange": "*",
+    "Summary": "Cross Site Scripting (XSS)",
+    "Contributor": {
+        "Discloser": "",
+        "Fixer": ""
+    },
+    "Package": {
+        "Registry": "other",
+        "Name": "",
+        "URL": "",
+        "Downloads": ""
+    },
+    "CWEs": [{
+        "ID": "471",
+        "Description": "Cross Site Scripting (XSS)"
+    }],
+    "CVSS": {
+        "Version": "3.0",
+        "AV": "N",
+        "AC": "L",
+        "PR": "N",
+        "UI": "N",
+        "S": "U",
+        "C": "N",
+        "I": "N",
+        "A": "H",
+        "E": "F",
+        "RL": "X",
+        "RC": "X",
+        "Score": "7.5"
+    },
+    "CVEs": [
+        ""
+    ],
+    "Repository": {
+        "URL": "",
+        "Codebase": [
+            "Javascript"
+        ],
+        "Owner": "",
+        "Name": "",
+        "Stars": "",
+        "Forks": ""
+    },
+    "Permalinks": [
+        ""
+    ],
+    "References": [{
+        "Description": "",
+        "URL": ""
+    }],
+    "PrNumber": "1"
+}

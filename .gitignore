@@ -1,0 +1,6 @@
+# user data files
+data.json
+
+# node_modules and build dist
+dist/
+node_modules/
